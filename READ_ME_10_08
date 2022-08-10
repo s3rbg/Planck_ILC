@@ -3,3 +3,15 @@ Updates:
 -Added module to compute the weights from the covariance matrix
 -Tests with higher frequencies simulations, mixing temperature and flux units
 -Added conversion from MJy/sr to K
+
+
+Achieved:
+-With low frecs, stdev goes from 750 uK down to 250 uK. CMB simulation has an stdev of 97 uK
+
+Pending:
+- Revise if plot correctly (try working with energies rather than temperature)
+- Apply the method in sections
+
+Problems:
+- Negative values in data???
+- Working with high freq, covariance is singular matrix (has sth to do with units?)
