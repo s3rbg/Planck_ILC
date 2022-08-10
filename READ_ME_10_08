@@ -1,5 +1,5 @@
 Updates:
 
 -Added module to compute the weights from the covariance matrix
--Changed to work with higher frequencies
+-Tests with higher frequencies simulations
 -Added conversion from MJy/sr to K
