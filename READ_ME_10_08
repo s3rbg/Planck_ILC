@@ -1,5 +1,5 @@
 Updates:
 
 -Added module to compute the weights from the covariance matrix
--Tests with higher frequencies simulations
+-Tests with higher frequencies simulations, mixing temperature and flux units
 -Added conversion from MJy/sr to K
