@@ -11,6 +11,7 @@ Achieved:
 Pending:
 - Revise if plot correctly (try working with energies rather than temperature)
 - Apply the method in sections
+- Revise the output files, there may be some mixing between high and low freqs
 
 Problems:
 - Negative values in data???
