@@ -1,0 +1,27 @@
+comp_fold = 'psm_output/output/components/'
+cmb  = str(comp_fold)+'cmb/cmb_map.fits'
+free = str(comp_fold)+'freefree/freefree_ampl.fits'
+sync = str(comp_fold)+'synchrotron/synchrotron_ampl.fits'
+th   = str(comp_fold)+'thermaldust/thermaldust_ampl.fits'
+hdul_cmb  = fits.open(cmb)
+hdul_free = fits.open(free)
+hdul_sync = fits.open(sync)
+hdul_th   = fits.open(th)
+
+
+hdr_cmb  = hdul_cmb[1].header
+hdr_free = hdul_free[1].header
+hdr_sync = hdul_sync[1].header
+hdr_th   = hdul_th[1].header
+
+unit_cmb = hdr_cmb['TUNIT1']
+unit_free = hdr_free['TUNIT1']
+unit_sync = hdr_sync['TUNIT1']
+unit_th = hdr_th['TUNIT1']
+
+
+
+data_cmb  = hdul_cmb[1].data
+data_free = hdul_free[1].data
+data_sync = hdul_sync[1].data
+data_th   = hdul_th[1].data
