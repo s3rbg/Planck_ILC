@@ -24,5 +24,5 @@ def factor_MJy(frec):
 
     """
 
-    return 1e-12*c**2/frec**2/2/k_b
+    return 1e-12*c**2/frec**2/2/k_b*1e-26
     
