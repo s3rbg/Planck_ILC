@@ -1,3 +1,5 @@
-# Planck_ILC
+Updates since last version:
 
-This project
+ - The method can now be done in slices on data
+ - Separate folder for final results (needs revision)
+ 
