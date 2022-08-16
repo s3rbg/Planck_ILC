@@ -1,1 +1,1 @@
-Auxiliar folder to transfer files in and out the virtual machine
+Auxiliar branch to transfer files in and out the virtual machine, files in here are not part of the project
