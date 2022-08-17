@@ -1,3 +1,1 @@
-# Planck_ILC
-
-This project
+Tried new formula for the covariance
